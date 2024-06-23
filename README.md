@@ -1,5 +1,4 @@
 Preuzmite i buildajte projekt
-Pristupanje API endpointovima
 
 Nakon uspješnog pokretanja aplikacije, možete pristupiti endpointovima putem sljedećih ruta:
 Dohvat liste proizvoda:
