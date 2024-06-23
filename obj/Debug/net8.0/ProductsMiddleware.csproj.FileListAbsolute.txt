@@ -31,3 +31,6 @@ C:\Users\Hrsto\OneDrive\Radna površina\KingICT\ProductsMiddleware\obj\Debug\net
 C:\Users\Hrsto\OneDrive\Radna površina\KingICT\ProductsMiddleware\obj\Debug\net8.0\ProductsMiddleware.genruntimeconfig.cache
 C:\Users\Hrsto\OneDrive\Radna površina\KingICT\ProductsMiddleware\obj\Debug\net8.0\ref\ProductsMiddleware.dll
 C:\Users\Hrsto\OneDrive\Radna površina\KingICT\ProductsMiddleware\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Hrsto\OneDrive\Radna površina\KingICT\ProductsMiddleware\obj\Debug\net8.0\ProductsMiddleware.sourcelink.json
+C:\Users\Hrsto\OneDrive\Radna površina\KingICT\ProductsMiddleware\bin\Debug\net8.0\ProductsMiddleware.xml
+C:\Users\Hrsto\OneDrive\Radna površina\KingICT\ProductsMiddleware\obj\Debug\net8.0\ProductsMiddleware.xml

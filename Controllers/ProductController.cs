@@ -5,6 +5,11 @@ using ProductsMiddleware.Services;
 
 namespace ProductsMiddleware.Controllers
 {
+
+    /// <summary>
+    /// Controller for procuct management
+    /// </summary>
+    /// 
     [ApiController]
     [Route("[controller]")]
     public class ProductsController : ControllerBase
@@ -16,6 +21,12 @@ namespace ProductsMiddleware.Controllers
             _productService = productService;
         }
 
+        /// <summary>
+        /// This endpoint gets all the proudcts
+        /// </summary>
+        /// <returns>A list of products</returns>
+        /// <response code="200">It returns a list of products</response>
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
@@ -23,6 +34,14 @@ namespace ProductsMiddleware.Controllers
             return Ok(products);
         }
 
+
+        /// <summary>
+        /// Gets a product by its id
+        /// </summary>
+        /// <param name="id">Product ID</param>
+        /// <returns>Details of a product</returns>
+        /// <response code="200">Returns the requested product</response>
+        /// <response code="404">Product not found</response>
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProductById(int id)
         {
@@ -33,6 +52,15 @@ namespace ProductsMiddleware.Controllers
             }
             return Ok(product);
         }
+
+        /// <summary>
+        /// Filter products by category and price
+        /// </summary>
+        /// <param name="category">Product category</param>
+        /// <param name="minPrice">Min price</param>
+        /// <param name="maxPrice">Max price</param>
+        /// <returns>List of filtered products</returns>
+        /// <response code="200">Returns the filtered list of products</response>
 
         [HttpGet("filter")]
         public async Task<ActionResult<IEnumerable<Product>>> FilterProducts(string category = null, decimal? minPrice = null, decimal? maxPrice = null)
@@ -49,6 +77,15 @@ namespace ProductsMiddleware.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Searches products by name
+        /// </summary>
+        /// <param name="searchText">Search text</param>
+        /// <returns>List of products matching the search</returns>
+        /// <response code="200">Returns a list of products that match the search</response>
+        /// <response code="400">If search text is not entered</response>
+
         [HttpGet("search")]
         public async Task<ActionResult<IEnumerable<Product>>> SearchProducts(string searchText)
         {
@@ -61,7 +98,6 @@ namespace ProductsMiddleware.Controllers
 
                 var products = await _productService.GetProductsAsync();
 
-                // Filtriranje proizvoda po nazivu koji sadrži uneseni tekst
                 products = products.Where(p => p.Title.Contains(searchText, StringComparison.OrdinalIgnoreCase));
 
                 return Ok(products);

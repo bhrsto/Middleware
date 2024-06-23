@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|c:\\users\\hrsto\\onedrive\\radna povr\u0161ina\\kingict\\productsmiddleware\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|c:\\users\\hrsto\\onedrive\\radna povr\u0161ina\\kingict\\productsmiddleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|c:\\users\\hrsto\\onedrive\\radna povr\u0161ina\\kingict\\productsmiddleware\\interface\\iproductprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|solutionrelative:interface\\iproductprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|c:\\users\\hrsto\\onedrive\\radna povr\u0161ina\\kingict\\productsmiddleware\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|c:\\users\\hrsto\\onedrive\\radna povr\u0161ina\\kingict\\productsmiddleware\\services\\restapiproductprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|solutionrelative:services\\restapiproductprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|c:\\users\\hrsto\\onedrive\\radna povr\u0161ina\\kingict\\productsmiddleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE141400-73EF-4425-AB79-5C40D3279A10}|ProductsMiddleware.csproj|c:\\users\\hrsto\\onedrive\\radna povr\u0161ina\\kingict\\productsmiddleware\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,19 +38,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductList.cs",
-              "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Models\\ProductList.cs",
-              "RelativeDocumentMoniker": "Models\\ProductList.cs",
-              "ToolTip": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Models\\ProductList.cs",
-              "RelativeToolTip": "Models\\ProductList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA1wDEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T10:47:05.445Z",
+              "WhenOpened": "2024-06-21T17:25:41.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAB/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T17:23:51.745Z",
               "EditorCaption": ""
             },
             {
@@ -63,25 +76,23 @@
               "RelativeToolTip": "Services\\ProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T10:13:56.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T10:13:56.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductList.cs",
+              "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Models\\ProductList.cs",
+              "RelativeDocumentMoniker": "Models\\ProductList.cs",
+              "ToolTip": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Models\\ProductList.cs",
+              "RelativeToolTip": "Models\\ProductList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T10:47:05.445Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T17:23:51.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "RestApiProductProvider.cs",
               "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Services\\RestApiProductProvider.cs",
               "RelativeDocumentMoniker": "Services\\RestApiProductProvider.cs",
@@ -89,25 +100,11 @@
               "RelativeToolTip": "Services\\RestApiProductProvider.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAYwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T17:10:33.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T17:10:33.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwAgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T17:25:41.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -115,12 +112,11 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T17:04:49.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T17:04:49.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "IProductProvider.cs",
               "DocumentMoniker": "C:\\Users\\Hrsto\\OneDrive\\Radna povr\u0161ina\\KingICT\\ProductsMiddleware\\Interface\\IProductProvider.cs",
               "RelativeDocumentMoniker": "Interface\\IProductProvider.cs",

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductsMiddleware</name>
+    </assembly>
+    <members>
+        <member name="T:ProductsMiddleware.Controllers.ProductsController">
+            <summary>
+            Controller for procuct management
+            </summary>
+            
+        </member>
+        <member name="M:ProductsMiddleware.Controllers.ProductsController.GetProducts">
+            <summary>
+            This endpoint gets all the proudcts
+            </summary>
+            <returns>A list of products</returns>
+            <response code="200">It returns a list of products</response>
+        </member>
+        <member name="M:ProductsMiddleware.Controllers.ProductsController.GetProductById(System.Int32)">
+            <summary>
+            Gets a product by its id
+            </summary>
+            <param name="id">ID of a product</param>
+            <returns>Details of a product</returns>
+            <response code="200">Returns the requested product</response>
+            <response code="404">Product not found</response>
+        </member>
+        <member name="M:ProductsMiddleware.Controllers.ProductsController.FilterProducts(System.String,System.Nullable{System.Decimal},System.Nullable{System.Decimal})">
+            <summary>
+            Filter products by category and price
+            </summary>
+            <param name="category">Product category</param>
+            <param name="minPrice">Min price</param>
+            <param name="maxPrice">May price</param>
+            <returns>List of filtered products</returns>
+            <response code="200">Returns the filtered list of products</response>
+        </member>
+        <member name="M:ProductsMiddleware.Controllers.ProductsController.SearchProducts(System.String)">
+            <summary>
+            Searches products by name
+            </summary>
+            <param name="searchText">Search text</param>
+            <returns>List of products matching the search</returns>
+            <response code="200">Returns a list of products that match the search</response>
+            <response code="400">If search text is not entered</response>
+        </member>
+    </members>
+</doc>
